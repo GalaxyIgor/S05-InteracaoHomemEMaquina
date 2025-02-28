@@ -27,11 +27,12 @@ body {
 
 .header-item {
     background-color: #ffffff;
-    padding: 8px 16px;
+    padding: 16px 16px;
     border-radius: 4px;
     text-align: center;
+    font-size: 12px;
     flex: 1;
-    margin: 0 8px; /* Espaçamento entre os itens */
+    margin: 16px; /* Espaçamento entre os itens */
 }
 
 /* Mensagens */
