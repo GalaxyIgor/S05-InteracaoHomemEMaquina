@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaçamento entre os contêineres */
+    padding: 16px; /* Margens internas */
+    margin:  auto; /* Centraliza o container */
+}
+
+/* Header */
+.header {
+    background-color: #0077ff;
+    padding: 16px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Distribui os itens com espaçamento igual */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.header-item {
+    background-color: #ffffff; /* Cor de fundo dos itens */
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 16px; /* Espaçamento entre os itens */
+}
+/* Mensagens */
+.mensagens {
+    background-color: #0095ff; /* Cor de fundo */
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+.mensagens ul {
+    margin: 16px 0 0;
+    padding-left: 16px;
+}
+
+/* Aulas */
+.aulas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as disciplinas quebrem linha */
+    gap: 16px; /* Espaçamento entre as disciplinas */
+}
+
+.disciplina {
+    background-color: #3589bd;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    flex: 1 1 calc(33.33% - 16px); /* 3 disciplinas por linha em telas maiores */
+    text-align: center;
+}
+.disciplina p {
+    margin: 0;
+}
+
+/* Notícias */
+.noticias {
+    background-color: #497eac; /* Cor de fundo */
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.noticias p {
+    margin: 1;
+}
+
+/* Define a ordem dos itens dentro do Flexbox */
+.disciplina:nth-child(2) {
+    order: -1; /* Move o segundo item para o início */
+}
+
+
+/* Estilos responsivos para telas menores que 768px */
+@media (max-width: 768px) {
+    .aulas {
+      flex-direction: column; /* Muda o layout para coluna em telas menores */
+    }
+  
+    .disciplina {
+      flex: 1 1 100%; /* As disciplinas ocupam 100% da largura em telas menores */
+    }
+}
