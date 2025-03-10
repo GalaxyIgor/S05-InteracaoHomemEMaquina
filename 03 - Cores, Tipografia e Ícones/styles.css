@@ -1,0 +1,172 @@
+:root {
+    --primary-color: #0077ff;
+    --secondary-color: #0095ff;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --card-color: #388bff;
+    --news-color: #60a1da;
+}
+[data-theme="light"] {
+    --primary-color: #007CF0;
+    --secondary-color: #009dff;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --card-color: #0070F0;
+    --news-color: #009dff;
+    --svg-fill:#000000;
+}
+[data-theme="dark"] {
+    --primary-color: #005FCC;
+    --secondary-color: #0066aa;
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --card-color: #00489b;
+    --news-color: #00548c;
+    --svg-fill:#ffffff;
+}
+
+body {
+    margin: 16px;
+    font-family: 'Arimo', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    margin: auto;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 25px;
+    flex: 1;
+    margin: 16px;
+}
+
+.logo_inatel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 25px;
+    flex: 1;
+    margin: 16px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 25px;
+    flex: 1;
+    margin: 16px;
+}
+
+.svg_logo_inatel {
+    width: 100px;
+    height: auto;
+    fill: var(--svg-fill);
+}
+
+.mensagens {
+    background-color: var(--secondary-color);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--text-color);
+}
+
+.lista-mensagens {
+    max-height: 150px; /* Limite para evitar rolagem excessiva */
+    overflow-y: auto;
+}
+
+.mensagem-item {
+    padding: px 0;
+}
+
+.aulas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.disciplina {
+    background-color: var(--card-color);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--text-color);
+    flex: 1 1 calc(33.33% - 16px);
+    text-align: center;
+}
+
+.noticias {
+    background-color: var(--news-color);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.theme-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: none;
+}
+
+.theme-menu.show {
+    display: block;
+}
+
+.theme-menu button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--card-color);
+}
+
+.theme-menu button:hover {
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .aulas {
+        flex-direction: column;
+    }
+
+    .disciplina {
+        flex: 1 1 100%;
+    }
+}
