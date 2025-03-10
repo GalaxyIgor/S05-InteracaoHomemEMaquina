@@ -6,7 +6,7 @@ window.onload = function () {
     }
 
     // Exibe o menu de temas ao clicar no ícone de menu
-    document.getElementById('menu-Brightness -item').addEventListener('click', function () {
+    document.getElementById('menu-Brightness-item').addEventListener('click', function () {
         const themeMenu = document.getElementById('theme-menu');
         // Alterna a classe show para mostrar ou esconder o menu
         themeMenu.classList.toggle('show');
