@@ -50,42 +50,6 @@ body {
     align-items: center;
 }
 
-.settings-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 25px;
-    flex: 1;
-    margin: 16px;
-}
-
-.logo_inatel-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 25px;
-    flex: 1;
-    margin: 16px;
-}
-
-.menu-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 25px;
-    flex: 1;
-    margin: 16px;
-}
-
 .svg_logo_inatel {
     width: 100px;
     height: auto;
