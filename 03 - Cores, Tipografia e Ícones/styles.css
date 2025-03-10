@@ -50,8 +50,9 @@ body {
     align-items: center;
 }
 
+
 .svg_logo_inatel {
-    width: 100px;
+    width: 120px;
     height: auto;
     fill: var(--svg-fill);
 }
