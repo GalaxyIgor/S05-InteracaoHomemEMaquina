@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Semana do Software",
+        "date": "12/05",
+        "time": "10:00",
+        "location": "Salão de Eventos",
+        "description": "Palestras sobre as últimas tendências em tecnologia.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-JuoNvIXgvIFnsvXj37u7vkEYa7E4xHDeQ&s",
+        "horasCP": 4,
+        "tipo": "tech"
+    },
+    {
+        "id": 2,
+        "title": "Workshop de IoT",
+        "date": "15/05",
+        "time": "14:00",
+        "location": "Lab. CS&I",
+        "description": "Construa seu primeiro protótipo IoT.",
+        "horasAC": 4,
+        "horasCP": 2,
+        "tipo": "workshop"
+    },
+    {
+        "id": 3,
+        "title": "Maratona de Programação",
+        "date": "18/05",
+        "time": "09:00",
+        "location": "Lab. Informática",
+        "description": "Competição de algoritmos e resolução de problemas.",
+        "horasAC": 10,
+        "horasCP": 5,
+        "tipo": "competição"
+    },
+    {
+        "id": 4,
+        "title": "Visita Técnica - Empresa X",
+        "date": "20/05",
+        "time": "13:30",
+        "location": "Saída Portão Principal",
+        "description": "Conheça o processo produtivo de uma grande indústria.",
+        "horasAC": 6,
+        "horasCP": 3,
+        "milhas": 80,
+        "tipo": "visita"
+    },
+    {
+        "id": 5,
+        "title": "Palestra Carreiras",
+        "date": "22/05",
+        "time": "19:00",
+        "location": "Auditório Central",
+        "description": "Profissionais compartilham experiências de mercado.",
+        "horasAC": 3,
+        "horasCP": 1,
+        "tipo": "palestra"
+    }
+]
