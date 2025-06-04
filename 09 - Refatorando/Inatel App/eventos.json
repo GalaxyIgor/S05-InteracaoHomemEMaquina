@@ -6,7 +6,7 @@
         "time": "10:00",
         "location": "Salão de Eventos",
         "description": "Palestras sobre as últimas tendências em tecnologia.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-JuoNvIXgvIFnsvXj37u7vkEYa7E4xHDeQ&s",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800&h=400",
         "horasCP": 4,
         "tipo": "tech"
     },
@@ -17,6 +17,7 @@
         "time": "14:00",
         "location": "Lab. CS&I",
         "description": "Construa seu primeiro protótipo IoT.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800&h=400",
         "horasAC": 4,
         "horasCP": 2,
         "tipo": "workshop"
