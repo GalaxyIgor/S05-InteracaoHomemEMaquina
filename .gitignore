@@ -1,0 +1,86 @@
+# ============================
+# 🐍 Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+ENV/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ============================
+# ☕ Java / Maven / Gradle
+# ============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+.gradle/
+build/
+
+# ============================
+# 📦 Node.js
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ============================
+# 🖥️ IDEs / Editores
+# ============================
+# VSCode
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ============================
+# 💻 Sistema Operacional
+# ============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================
+# 🔑 Segurança
+# ============================
+.env
+*.key
+*.pem
+*.crt
+*.secret
